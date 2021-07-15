@@ -1,7 +1,7 @@
 /*
 
  
- 25 0,6-23/2 * * * jd_summer_movement.js
+ 25 0,6-23/2 * * * jd_summer_movement1.js
 
   */
 const $ = new Env('燃动夏季');
