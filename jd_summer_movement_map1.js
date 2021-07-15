@@ -1,6 +1,6 @@
 /*
 
- cron 7 10,20 * * * jd_summer_movement_map.js
+ cron 7 10,20 * * * jd_summer_movement_map1.js
  
  */
 const $ = new Env('燃动夏季领店铺任务');
