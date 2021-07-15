@@ -1,6 +1,6 @@
 /*
 
-cron  11 12,20 * * * jd_summer_movement_bet.js
+cron  11 12,20 * * * jd_summer_movement_bet1.js
 
 */
 const $ = new Env('燃动夏季下注');
