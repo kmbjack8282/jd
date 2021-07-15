@@ -9,7 +9,7 @@ cron 14/41 7-14 * * * https://raw.githubusercontent.com/smiek2221/scripts/master
 const $ = new Env('燃动夏季_SH助力');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
-const jdCookieNode = $.isNode() ? require('./pt_key=AAJgzgGIADBMWpNEO0AmuudLCzuY_bhEjZaasfs52bL2f2ubsWBf6cmHwn2N7rK110Hb1vyjUDg;pt_pin=jd_5159f4a5f74ce;
+const jdCookieNode = $.isNode() ? require(pt_key=AAJgzgGIADBMWpNEO0AmuudLCzuY_bhEjZaasfs52bL2f2ubsWBf6cmHwn2N7rK110Hb1vyjUDg;pt_pin=jd_5159f4a5f74ce;
 pt_key=AAJgzvk0ADAYA00-uUc24QF7q_R4CtXEOS3JkBA50fN2ft2L3nIjOdD7uZiN0lZaQCOMJEXpuRI;pt_pin=jd_7f1ada974d34e;
 pt_key=AAJg5tJdADAHs1LS-yjCFY-ItkGY9QfOlWsURU380Wx_ixwvd__sNy7-kB810TM3jFc_6aItWqM; pt_pin=jd_gMGFngToIIBp; pt_token=38hwnftc; pwdt_id=jd_gMGFngToIIBp;
 pt_key=AAJg0yR1ADBp6vQLiuqFKUf5r2F1CqbsmaJ0_-FRMS8CcseVIOHZXS7PIVG8fjl1OW6hriY0OuE;pt_pin=jd_CvsCAzofDHwS;pt_token=rwpq1fdr;pwdt_id=jd_CvsCAzofDHwS;
