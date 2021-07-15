@@ -9,20 +9,7 @@ cron 14/41 7-14 * * * https://raw.githubusercontent.com/smiek2221/scripts/master
 const $ = new Env('燃动夏季_SH助力');
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
-const jdCookieNode = $.isNode() ? require(pt_key=AAJgzgGIADBMWpNEO0AmuudLCzuY_bhEjZaasfs52bL2f2ubsWBf6cmHwn2N7rK110Hb1vyjUDg;pt_pin=jd_5159f4a5f74ce;
-pt_key=AAJgzvk0ADAYA00-uUc24QF7q_R4CtXEOS3JkBA50fN2ft2L3nIjOdD7uZiN0lZaQCOMJEXpuRI;pt_pin=jd_7f1ada974d34e;
-pt_key=AAJg5tJdADAHs1LS-yjCFY-ItkGY9QfOlWsURU380Wx_ixwvd__sNy7-kB810TM3jFc_6aItWqM; pt_pin=jd_gMGFngToIIBp; pt_token=38hwnftc; pwdt_id=jd_gMGFngToIIBp;
-pt_key=AAJg0yR1ADBp6vQLiuqFKUf5r2F1CqbsmaJ0_-FRMS8CcseVIOHZXS7PIVG8fjl1OW6hriY0OuE;pt_pin=jd_CvsCAzofDHwS;pt_token=rwpq1fdr;pwdt_id=jd_CvsCAzofDHwS;
-pt_key=AAJg2bVwADDyo3gyXpbQwxP8nro4s9J_77xgjOHN6u6cebAk2GkepRgLinlQe0fTR-06SbzDKcg;pt_pin=SUNRREC;pt_token=jw5dp9o1;pwdt_id=SUNRREC;
-pt_key=AAJgzgC3ADAe7EUmqed6XOndrK49Irz4t09dUAy0LVynTEIUGlLMjLcqrS_SHdJrmwA2H8BAqr4;pt_pin=wdNShtksJewXYDz;
-pt_key=AAJg6GiUADBHk_P96W676tu3q40YKcSKfWdcBfR-HQMks1MY4WVDYRtb49Um_woBu54Dtg537Qs; pt_pin=jd_5ebc59e9b99b0;
-pt_key=AAJg7EFWADBUAAPuHdDzDdUEsUx7NQZ-tMoyIP5i1Z8Cvf39uw74KIQevFhn8y9XLyqarmK8tuo;pt_pin=jd_grrQSltcEvug;
-pt_key=AAJgzf4uADChcpz9KV80yDNC-RTVwCVFOJ-2dRalZLkRwWQpsF8rGjq3i1DlWaadXxK8-oStvlI;pt_pin=jd_CpdtHRfBkDus;
-pt_key=AAJg2xfGAEALcBkZcL6_tz9lurCoHkg2dSD5eVg2DIAb2LvJzI7bBiZ4TuqrwcJyBivvEgRfqRwAJLimaPnKKI706zrDXHCM;pt_pin=215637226-30464027;
-pt_key=AAJgxaWwADBJi69nsyxlduf6DkZWxgwZ-ttSp4R7oNKXaFOR4Eu-Jo0qwOB0-WMQp4hjpj3VYuE;pt_pin=jd_sNTyzSiwjEEX;
-pt_key=AAJgzsItADDOqDFJ3U64h9v6Gcla8Bbi7Zrck7pdoUd4kiLJcVb3VAEwRJuBw_z3q4qqlllYCzI;pt_pin=jd_6ed5d66fa798f;
-pt_key=AAJg5nwGADAzCYuhT3L042nK2uekwPcindnlBxZPTaXW_Egfi6AJ9kRuCYCjXfLP2G2TUiyJyHs; pt_pin=wdXoykrPHNUFvk;
-pt_key=AAJg5n2uADB_-XQYIAWz0RMRRVJPmRhNpM-YY2dqjtyDfpGyc7zqjxg0mR3hsgxqEw4VVV-H23c; pt_pin=jd_PVNYgFEFJWnZ;') : '';
+const jdCookieNode = $.isNode() ? require(') : '';
 
 const https = require('https');
 const fs = require('fs/promises');
