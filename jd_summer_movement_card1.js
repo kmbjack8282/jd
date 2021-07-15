@@ -1,6 +1,6 @@
 /*
 
-cron 10 8 * * * jd_summer_movement_card.js
+cron 10 8 * * * jd_summer_movement_card1.js
 
 
  */
