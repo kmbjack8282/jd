@@ -50,7 +50,7 @@ message = ""
     });
     return;
   }
-  $.shareUuid = '91695169b3934d429acd1bf46a1ea887'
+  $.shareUuid = ''
   for (let i = 0; i < cookiesArr.length; i++) {
     cookie = cookiesArr[i];
     if (cookie) {
