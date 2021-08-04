@@ -6,7 +6,7 @@ const $ = new Env('店铺签到');
 
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
-const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
+const jdCookieNode = $.isNode() ? require('pt_key=AAJhA3JKADCVKvYeuMynNcnH-5DE-1RFdRb7As_QW_VRj2VKqi3FaGdbP2_8IOyCgJcjsI2FFtQ; pt_pin=jd_5159f4a5f74ce;','pt_key=AAJg9smRADCcecC_KQB8IzQmysx2L56AM5bB5o6N7vAw34iJHIkCHqd3wFMNYsH-E3ljfrC5CZw; pt_pin=jd_7f1ada974d34e;') : '';
 //IOS等用户直接用NobyDa的jd cookie
 let cookiesArr = [], cookie = '', message;
 const JD_API_HOST = 'https://api.m.jd.com/api?appid=interCenter_shopSign';
